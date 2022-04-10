@@ -13,12 +13,7 @@ const defaultProps: Props = {
   onClick: () => {},
 };
 
-export const Journal: React.FC<Props> = ({
-  bgColor,
-  color,
-  className,
-  onClick,
-}) => {
+export const Journal: React.FC<Props> = ({ color, className, onClick }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
