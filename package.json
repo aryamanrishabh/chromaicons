@@ -1,7 +1,13 @@
 {
   "name": "ih-resources-beta",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Re-usable resources for assets",
+  "keywords": [
+    "javascript",
+    "typescript",
+    "assets",
+    "re-use"
+  ],
   "homepage": "https://github.com/aryamanrishabh/ih-resources-beta",
   "main": "dist/index.js",
   "license": "MIT",
