@@ -19,39 +19,30 @@ export const ArrowRight: React.FC<Props> = ({
   className,
   onClick,
 }) => {
-  const a: React.CSSProperties = { fill: bgColor };
-  const b: React.CSSProperties = {
-    fill: "none",
-    stroke: color,
-    strokeWidth: "2px",
-    strokeLinecap: "round",
-    strokeLinejoin: "round",
-  };
-  const c: React.CSSProperties = { transform: "rotate(180deg)" };
-
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="32"
-      height="32"
-      viewBox="0 0 32 32"
-      style={c}
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+      fill={bgColor}
       className={className}
       onClick={onClick}
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <g transform="translate(-575.333 -36.167)">
-        <circle
-          style={a}
-          cx="16"
-          cy="16"
-          r="16"
-          transform="translate(575.333 36.167)"
-        />
-        <g transform="translate(579.333 40.166)">
-          <line style={b} x1="14" transform="translate(5 12)" />
-          <path style={b} d="M12,19,5,12l7-7" />
-        </g>
-      </g>
+      <path
+        d="M3.33325 8H12.6666"
+        stroke={color}
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M8 3.33337L12.6667 8.00004L8 12.6667"
+        stroke={color}
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
     </svg>
   );
 };
