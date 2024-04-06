@@ -1,14 +1,16 @@
 {
-  "name": "ih-resources-beta",
-  "version": "1.0.3",
+  "name": "chromaicons",
+  "version": "1.0.4",
   "description": "Re-usable resources for assets",
   "keywords": [
     "javascript",
     "typescript",
     "assets",
-    "re-use"
+    "re-use",
+    "chroma",
+    "icons"
   ],
-  "homepage": "https://github.com/aryamanrishabh/ih-resources-beta",
+  "homepage": "https://github.com/aryamanrishabh/chromaicons",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
